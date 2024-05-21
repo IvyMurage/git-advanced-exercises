@@ -94,3 +94,46 @@ Automatic merge failed; fix conflicts and then commit the result.
 Successfully rebased and updated refs/heads/ft/feature-102.
 
 ```
+
+## Checking Out Detached HEAD:
+
+```
+~/ojemba/git-advanced-exercises (ft/feature-branch) » git checkout 7b95a3c                                               ivy@ivy-HP-ProBook-430-G7
+Note: switching to '7b95a3c'.
+
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7b95a3c chore: Create initial files
+---------------------------------------------------------------------------------------------------------------------------------------------------
+~/ojemba/git-advanced-exercises (7b95a3c) » git checkout -b  ft/test-branch                                              ivy@ivy-HP-ProBook-430-G7
+Switched to a new branch 'ft/test-branch'
+---------------------------------------------------------------------------------------------------------------------------------------------------
+~/ojemba/git-advanced-exercises (ft/test-branch*) » git branch                                                           ivy@ivy-HP-ProBook-430-G7
+---------------------------------------------------------------------------------------------------------------------------------------------------
+~/ojemba/git-advanced-exercises (ft/test-branch*) » git checkout ft/feature-102                                          ivy@ivy-HP-ProBook-430-G7
+M       test4.md
+Branch 'ft/feature-102' set up to track remote branch 'ft/feature-102' from 'origin'.
+Switched to a new branch 'ft/feature-102'
+---------------------------------------------------------------------------------------------------------------------------------------------------
+~/ojemba/git-advanced-exercises (ft/feature-102*) » git checkout main                                                    ivy@ivy-HP-ProBook-430-G7
+M       test4.md
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 9 commits.
+  (use "git push" to publish your local commits)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+~/ojemba/git-advanced-exercises (main*) »                                                                                ivy@ivy-HP-ProBook-430-G7
+```
