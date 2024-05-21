@@ -94,3 +94,14 @@ Automatic merge failed; fix conflicts and then commit the result.
 Successfully rebased and updated refs/heads/ft/feature-102.
 
 ```
+
+## Renaming Branches:
+
+```
+~/ojemba/git-advanced-exercises (main) » git switch ft/feature-102                                                       ivy@ivy-HP-ProBook-430-G7
+Switched to branch 'ft/feature-102'
+Your branch and 'origin/ft/feature-102' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+~/ojemba/git-advanced-exercises (ft/feature-102) » git branch -m ft/feature-102 ft/feature-branch
+```
