@@ -105,3 +105,30 @@ and have 3 and 1 different commits each, respectively.
   (use "git pull" to merge the remote branch into yours)
 ~/ojemba/git-advanced-exercises (ft/feature-102) » git branch -m ft/feature-102 ft/feature-branch
 ```
+
+## Checking Out Detached HEAD:
+
+```
+~/ojemba/git-advanced-exercises (ft/feature-branch) » git checkout 7b95a3c                                               ivy@ivy-HP-ProBook-430-G7
+Note: switching to '7b95a3c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7b95a3c chore: Create initial files
+---------------------------------------------------------------------------------------------------------------------------------------------------
+~/ojemba/git-advanced-exercises (7b95a3c) » git checkout -b  ft/test-branch                                              ivy@ivy-HP-ProBook-430-G7
+Switched to a new branch 'ft/test-branch'
+```
