@@ -92,4 +92,5 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 ~/ojemba/git-advanced-exercises (ft/feature-102) » git rebase -i main                                                    ivy@ivy-HP-ProBook-430-G7
 Successfully rebased and updated refs/heads/ft/feature-102.
+
 ```
