@@ -1,1 +1,1 @@
-THis the modified line in the main file
+This is the modified file in the test feature file
