@@ -23,5 +23,9 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
         deleted:    README.md
 
+
+
+
+
 Dropped refs/stash@{0} (362214ac7de3a2f83a598feb5d8a75fc13f968e6)
 ```
