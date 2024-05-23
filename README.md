@@ -149,3 +149,9 @@ To github.com:IvyMurage/git-advanced-exercises.git
    99d4a45..dae7c05  ft/test-6-feature -> ft/test-6-feature
 ------------
 ```
+
+## Listing and Deleting Tags:
+
+```
+~/ojemba/git-advanced-exercises (main) » git tag projectv1.0                                                                  ivy@ivy-HP-ProBook-430-G7
+```
