@@ -170,3 +170,5 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:IvyMurage/git-advanced-exercises.git
    a10d441..12b9351  main -> main
 ```
+## Pulling Changes from Remote Repositories:
+
