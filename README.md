@@ -21,3 +21,34 @@ Changes to be committed:
 
 Dropped refs/stash@{0} (362214ac7de3a2f83a598feb5d8a75fc13f968e6)
 ```
+
+## Branch Merging Conflicts (Continued):
+
+```
+~/ojemba/git-advanced-exercises (main) » git pull origin ft/test-6-feature                                               ivy@ivy-HP-ProBook-430-G7
+From github.com:IvyMurage/git-advanced-exercises
+ * branch            ft/test-6-feature -> FETCH_HEAD
+Auto-merging feature.txt
+CONFLICT (content): Merge conflict in feature.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+```
+
+## Resolving Merge Conflicts with a Merge Tool:
+
+```
+~/ojemba/git-advanced-exercises (main*) » git status                                                                 1 ↵ ivy@ivy-HP-ProBook-430-G7
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+ (use "git push" to publish your local commits)
+
+
+All conflicts fixed but you are still merging.
+ (use "git commit" to conclude merge)
+
+
+Changes to be committed:
+       modified:   feature.txt
+
+```
