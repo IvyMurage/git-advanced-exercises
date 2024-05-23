@@ -170,5 +170,20 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:IvyMurage/git-advanced-exercises.git
    a10d441..12b9351  main -> main
 ```
+
 ## Pulling Changes from Remote Repositories:
 
+```
+~/ojemba/git-advanced-exercises (main) » git pull                                                                             ivy@ivy-HP-ProBook-430-G7
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 968 bytes | 242.00 KiB/s, done.
+From github.com:IvyMurage/git-advanced-exercises
+   7043106..a1f3bf6  main       -> origin/main
+Updating 7043106..a1f3bf6
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+```
