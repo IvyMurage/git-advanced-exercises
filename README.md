@@ -155,3 +155,18 @@ To github.com:IvyMurage/git-advanced-exercises.git
 ```
 ~/ojemba/git-advanced-exercises (main) » git tag projectv1.0                                                                  ivy@ivy-HP-ProBook-430-G7
 ```
+
+## Pushing Local Work to Remote Repositories:
+
+```
+~/ojemba/git-advanced-exercises (main) » git push                                                                             ivy@ivy-HP-ProBook-430-G7
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 387 bytes | 387.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:IvyMurage/git-advanced-exercises.git
+   a10d441..12b9351  main -> main
+```
