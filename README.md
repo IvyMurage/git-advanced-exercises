@@ -113,3 +113,39 @@ To github.com:IvyMurage/git-advanced-exercises.git
  * [new branch]      ft/test-3-4-feature -> ft/test-3-4-feature
 Branch 'ft/test-3-4-feature' set up to track remote branch 'ft/test-3-4-feature' from 'origin'.
 ```
+
+## Ignoring Files/Directories:
+
+```
+~/ojemba/git-advanced-exercises (ft/test-6-feature) » git rm readme.txt --cached
+rm 'readme.txt'
+~/ojemba/git-advanced-exercises (ft/test-6-feature*) » git status
+On branch ft/test-6-feature
+Your branch is up to date with 'origin/ft/test-6-feature'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    readme.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+~/ojemba/git-advanced-exercises (ft/test-6-feature*) » git add .
+~/ojemba/git-advanced-exercises (ft/test-6-feature*) » git commit -m 'git igrnore readme.txt'
+[ft/test-6-feature dae7c05] git igrnore readme.txt
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ delete mode 100644 readme.txt
+~/ojemba/git-advanced-exercises (ft/test-6-feature) » git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:IvyMurage/git-advanced-exercises.git
+   99d4a45..dae7c05  ft/test-6-feature -> ft/test-6-feature
+------------
+```
